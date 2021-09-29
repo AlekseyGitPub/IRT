@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src:
+    local('Montserrat');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+a:link,
+a:visited,
+a:active {
+    color: #111;
+    text-decoration: none;
+}
+
+.started-form-content a:hover {
+    transition: 0.3s;
+    color: rgb(61, 61, 61);
+    border-color:rgb(61, 61, 61);
+    text-decoration: none;
+}
+
+html,
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 0;
+
+}
+
+.started-form {
+    box-sizing: border-box;
+    padding-left: 600px;
+    padding-top: 250px;
+    width: 1400px; 
+    height: 1400px;
+    background: #907CFF;
+    border-radius: 50%;
+
+    transform: translate(-600px,-250px);
+}
+
+.started-form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+}
+
+.main {
+    font-size: 70px;
+    margin: 0;
+}
+
+.subMain {
+    width: 335px;
+    height: 98px;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+.started-form-content a {
+    margin-top: 28px;
+    padding: 22px 42px;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: #907CFF;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color : white;
+    cursor: pointer;
+}
+
+.started-form-content img {
+    margin-top: -24px;
+    z-index: -1;
+}
