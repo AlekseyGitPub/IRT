@@ -7,25 +7,70 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
 <body>
     <div class="container">
-        <div class="started-form">
-            <div class="started-form-content">
-                <p class="main">New here?</p>
-                <p class="subMain">Organize it all
-                    with IRT Project</p>
-                <a href="#">STARTED</a>
-                
-                <img src="/src/img/grandMaANDPa.png" alt="grandmother and grandfather in tour">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form action="#" class="sign-in-form">
+                    <h2 class="title">Sign in</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <input type="submit" class="btn solid" value="Login">
+                    <p class="social-text">Or sign up</p>
+                </form>
+            
+
+                <form action="#" class="sign-up-form">
+                    <h2 class="title">Sign Up</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <input type="submit" class="btn solid" value="Login">
+                    <p class="social-text">Or sign in</p>
+                </form>
             </div>
         </div>
-        <div class="login">
-            <p>Welcome!</p>
-            <input placeholder="Email" type="email" name="email" id="email" autocomplete="off">
+
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>New Here?</h3>
+                    <p>Organize it all
+                        with IRT Project</p>
+                    <button class="btn transparent" id="sign-up-button">Started</button>
+                </div>
+                <img src="/src/img/grandMaANDPa.png" alt="#" class="image">
+            </div>
+
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>One of us?</h3>
+                    <p>Then log in to your account</p>
+                    <button class="btn transparent" id="sign-in-button">Sign In</button>
+                </div>
+                <img src="/src/img/grandMaANDPa.png" alt="#" class="image">
+            </div>
         </div>
     </div>
+    <script src="https://kit.fontawesome.com/0e7b065f0f.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 </html>
