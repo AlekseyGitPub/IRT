@@ -1038,3 +1038,9 @@ input {
     opacity: 1;
   }
 }
+
+@media (max-height: 690px) {
+  .image {
+    opacity: 0;
+  }
+}
